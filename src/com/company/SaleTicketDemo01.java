@@ -7,6 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 class Ticket{
     //票
     private int number = 30;
+    // 可重入锁
     Lock lock  = new ReentrantLock();
 
     public void sale(){
